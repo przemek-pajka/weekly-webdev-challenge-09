@@ -1,0 +1,21 @@
+@import "variables";
+@import "bourbon";
+
+
+@include font-face("DancingScript-Regular", "../fonts/dancingscript/DancingScript-Regular", $file-formats: ttf);
+@include font-face("PlayfairDisplay-Regular", "../fonts/playfair/PlayfairDisplay-Regular", $file-formats: opentype);
+@include font-face("Raleway-Medium", "../fonts/raleway/Raleway-Medium", $file-formats: ttf);
+@include font-face("Raleway-Regular", "../fonts/raleway/Raleway-Regular", $file-formats: ttf);
+@include font-face("Raleway-Light", "../fonts/raleway/Raleway-Light", $file-formats: ttf);
+
+
+    @font-face {
+      font-family: 'fontello';
+      src: url('../fonts/fontello/fontello.eot?4706398');
+      src: url('../fonts/fontello/fontello.eot?4706398#iefix') format('embedded-opentype'),
+           url('../fonts/fontello/fontello.woff?4706398') format('woff'),
+           url('../fonts/fontello/fontello.ttf?4706398') format('truetype'),
+           url('../fonts/fontello/fontello.svg?4706398#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
